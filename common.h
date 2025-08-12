@@ -11,6 +11,7 @@ typedef uint32_t paddr_t;
 typedef uint32_t vaddr_t;
 
 #define true 1
+#define PAGE_SIZE 4096
 #define false 0
 #define NULL ((void *) 0)
 #define align_up(value, align)   __builtin_align_up(value, align)
